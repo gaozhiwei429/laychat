@@ -64,7 +64,7 @@ if (!$user_info) {
         'reg_timestamp'    => time(),
     ))->query();
 
-    /*
+
     // 随机分配一些好友。
     $some_user_id = $db->select('uid')->from('user')->orderByASC(array('logout_timestamp'), false)->limit(5)->column();
     if ($some_user_id) {
@@ -84,7 +84,7 @@ if (!$user_info) {
         'gid' => 1,
         'uid' => $id
     ))->query();
-    */
+    /**/
 }
 
 // ＝＝＝＝这个接口主最终目的就是设置这个session＝＝＝＝
